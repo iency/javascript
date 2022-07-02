@@ -1,3 +1,5 @@
-function toggleDarkMode() {
-    document.querySelector('body').classList.toggle("dark-theme")
+function oppositeBoolean(bool) {
+    return !bool
 }
+
+console.log(oppositeBoolean(false));
