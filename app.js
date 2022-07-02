@@ -1,11 +1,8 @@
-function getMax(arr) {
-    let max = arr[0];
-    for (let i = 0; i < arr.length; ++i) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
-    }
-    return max;
+function removeApples(arr) {
+    let newArr = arr.map((element) => {
+        console.log(element)
+        return 0
+    })
 }
 
-console.log(getMax([-100, -200, -300]));
+console.log(removeApples([5, 100, 0]))
