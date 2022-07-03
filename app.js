@@ -1,8 +1,9 @@
-function removeApples(arr) {
-    let newArr = arr.map((element) => {
-        console.log(element)
-        return 0
-    })
+function progressiveSum(num) {
+    let sum = 0;
+    for (let i = 1; i <= num; ++i) {
+        sum = sum + i;
+    }
+    return  sum;
 }
 
-console.log(removeApples([5, 100, 0]))
+console.log(progressiveSum(3))
