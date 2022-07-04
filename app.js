@@ -1,5 +1,5 @@
-function lastElem(arr) {
-    return arr[arr.length - 1] 
+function removeApples(arr) {
+    return arr.filter(elem => elem !== 'Apple')
 }
 
-console.log(lastElem([3, 2, 0, 4]))
+console.log (removeApples(['Banana', 'Apple', 'Apple', 'Orange']))
