@@ -1,9 +1,5 @@
-function progressiveSum(num) {
-    let sum = 0;
-    for (let i = 1; i <= num; ++i) {
-        sum = sum + i;
-    }
-    return  sum;
-}
+ function lastElem(arr) {
+    return arr[arr.length - 1];
+ }
 
-console.log(progressiveSum(3))
+ console.log(lastElem([3, 2, 0, 6, 2]))
