@@ -1,9 +1,11 @@
-function truthyOrFalthy(elem) {
-    let sum = 0;
-    for (i = 1; i <= elem; ++i) {
-        sum = sum + i
+function truthyOrFalthy(arr) {
+    let max = arr[0];
+    for (let i = 0; i < arr.length; ++i) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
     }
-    return sum;
+    return max
 }
 
-console.log(truthyOrFalthy(3));
+console.log(truthyOrFalthy([0, 500, 1000]));
