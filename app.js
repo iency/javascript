@@ -1,5 +1,9 @@
-function truthyOrFalthy(elem1, elem2) {
-    return (!elem1) ? elem1 : elem2;
+function truthyOrFalthy(elem) {
+    let sum = 0;
+    for (i = 1; i <= elem; ++i) {
+        sum = sum + i
+    }
+    return sum;
 }
 
-console.log(truthyOrFalthy(0, 500));
+console.log(truthyOrFalthy(3));
