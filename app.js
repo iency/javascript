@@ -1,5 +1,5 @@
-function removeApples(arr) {
-    return arr.filter(elem => elem !== 'Apple')
+function truthyOrFalthy(elem1, elem2) {
+    return (!elem1) ? elem1 : elem2;
 }
 
-console.log (removeApples(['Banana', 'Apple', 'Apple', 'Orange']))
+console.log(truthyOrFalthy(0, 500));
