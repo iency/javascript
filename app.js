@@ -8,4 +8,4 @@ function truthyOrFalthy(arr) {
     return max
 }
 
-console.log(truthyOrFalthy([0, 500, 1000]));
+console.log(truthyOrFalthy([0, 500, 1000, 600, 10]));
